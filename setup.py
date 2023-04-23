@@ -12,7 +12,7 @@ def find_stubs(package):
 
 setup(
     name="circleci-stubs",
-    version="0.1.1",
+    version="0.1.2",
     description="Type stubs for circleci",
     packages=find_packages(),
     install_requires=["circleci >= 1.2.2"],
